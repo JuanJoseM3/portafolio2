@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav id="nav-bar">
+            <img class="logo" src="images/logo.jfif" alt="">
+            <button id="btn-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                  </svg>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Sobre Mi</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <section class="hero">
+        <div class="intro-left">
+            <ul class="intro-list">
+                <li class="swing-top-fwd intro-paragraph name">Juan Jose Mosquera</li>
+                <li class="intro-paragraph">Programador Web Full Stack</li>
+                <li class="intro-paragraph">Back-End, Front-End</li>
+            </ul>
+        </div>
+        <div class="intro-right">
+            <div class="outer-circle">
+                <div class="inner-circle"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me-container">
+        <div class="about-title">
+            <h2>Sobre mi</h2>
+        </div>
+        <div class="about-description">
+            <p>Actualmente me encuentro terminando mi curso de aprendizaje en Academlo para ser Programador Web Full Stack. Entre los conocimientos adquiridos hasta el momento, se encuentran HTML, CSS, JavaScript, NodeJS, express, así como la realización de diversos proyectos con estas tecnologías y el consumo de APIs con React.</p>
+
+            <p>Consciente del constante cambio del mercado y las tecnologías actuales, soy un entusiasta del aprendizaje y de la búsqueda de nuevas técnicas para la resolución de las necesidades de las aplicaciones web.</p>
+                
+            <p>Considero que el aspecto más importante en el desarrollo de aplicaciones web es entender previamente todos los requerimientos del cliente para poder trazar un plan de trabajo que lleve a la solución más óptima.</p>
+        </div>
+    </section>
+
+    <div class="container shadow">
+        <h2>Habilidades y Servicios</h2>
+        <main class="skills">
+                <div class="service">
+                    <h3>Front-End</h3>
+                    <div class="skill-container">
+                        <div class="icons">
+                            <div class="two-images">
+                                <img src="images/html.png" class="left-image" alt="">
+                                <img src="images/node.png" class="left-image" alt="">
+                            </div>
+                            <img src="images/css.png" class="right-image" alt="">
+                        </div>
+                        <p class="skill-description">Manejo de HTML y CSS para la estructuración y visualización de páginas web, según las necesidades y preferencias del cliente. Diseño de la aplicación bajo la metodología de Mobile First y Responsive Web Design </p>
+                    </div>
+                </div>
+                
+                <div class="service">
+                    <h3>Back-End</h3>
+                    <div class="skill-container-2">
+                        <div class="icons">
+                            <img src="images/js.png" class="right-image" alt="">
+                            <div class="two-images">
+                                <img src="images/python.png" class="left-image" alt="">
+                                <img src="images/react.png" alt="">
+                            </div>
+                        </div>
+                        <p class="skill-description">Implementación de Javascript y NodeJS para la declaración de funciones y desarrollo de lógica para páginas web. Manejo del sistema PostgreSQL para la gestión de bases de datos y desarrollo.</p>
+                    </div>
+                </div>
+        </main>
+
+        <section class="projects-container">
+            <h2>Proyectos</h2>
+            <a href="" class="project-card">
+                <div class="card-container">
+                    <div class="image-bg rick-bg"></div>
+                    <div class="card-info">
+                        <h3>API Rick and Morty</h3>
+                        <p>Consumo de la API de Rick and Morty mediante React JS para retornar al usuario una interfaz en la que puede consultar los detalles de todos los personajes de la serie. Incluye funcionalidad de barra de búsqueda para filtrar personajes de acuerdo a su universo.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="project-card">
+                <div class="card-container">
+                    <div class="image-bg pokemon-bg"></div>
+                    <div class="card-info">
+                        <h3>API Pokemon</h3>
+                        <p>Implementación de React para la renderización de la API de Pokemon. Se listan los pokemon haciendo uso de la paginación según la cantidad de pokemon que el usuario desee ver por página, a la vez que se tiene la opción de buscar los pokemon según su tipo, nombre o ID.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="project-card">
+                <div class="card-container">
+                    <div class="image-bg backend-bg"></div>
+                    <div class="card-info">
+                        <h3>Lógica Back-End para e-commerce</h3>
+                        <p>Definición de la lógica, funciones y relaciones de modelos en la base de datos para guardar la información de usuarios del e-commerce, sus productos a la venta y el historial de compras de usuarios. Proyecto desarrollado a través de NodeJS y probado en la plataforma Postman.</p>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <div class="form-container">
+            <h2>Contacto</h2>
+            <form class="form" action="#" method="POST">
+                <legend>Diligencia la información de contacto</legend>
+
+                <div class="labels-container">
+                    <div class="field">
+                        <label>Nombre</label>
+
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="field">
+                        <label>Teléfono</label>
+
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="field">
+                        <label>Correo</label>
+
+                        <input type="mail" name="correo" placeholder="Mail">
+                    </div>
+                    <div class="field">
+                        <label>Mensaje:</label>
+
+                        <textarea placeholder="Comentarios"></textarea>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Juan Jose Freelancer 2022</p>
+    </footer>
+
+    <script src="main.js"></script> 
+</body>
+</html>
